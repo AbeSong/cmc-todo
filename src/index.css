@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Modern Era, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+  min-width: 280px;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Modern Era, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+@font-face {
+  font-family: Modern Era;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font/ModernEra-Regular.woff);
+  text-rendering: optimizeLegibility
+}
+
+@font-face {
+  font-family: Modern Era;
+  font-style: normal;
+  font-weight: 700;
+  src: url(./font/ModernEra-Bold.woff);
+  text-rendering: optimizeLegibility
+}
