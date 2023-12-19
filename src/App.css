@@ -1,5 +1,4 @@
-
-.app-header{
+.app-header {
   background-color: white;
   border-bottom: 1px solid #eee;
   height: 80px;
@@ -8,18 +7,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 12px;
-
 }
 
-.app-header img{
+.app-header img {
   padding: 8px;
 }
 
-.wrapper{
+.wrapper {
   padding: 0 24px;
 }
 
-.todo-container{
+.todo-container {
   max-width: 40rem;
   margin: auto;
   margin-top: 80px;
@@ -28,7 +26,7 @@
   border-radius: 1.25rem;
 }
 
-.todo-container .todo-title{
+.todo-container .todo-title {
   text-align: center;
   background-color: rgb(9, 23, 49);
   border-top-left-radius: 1.25rem;
@@ -37,11 +35,11 @@
   padding: 8px 0;
 }
 
-.todo-container .todo-body{
+.todo-container .todo-body {
   padding: 24px;
 }
 
-.todo-list{
+.todo-list {
   max-height: calc(100vh - 400px);
   min-height: 120px;
   overflow: auto;
@@ -78,11 +76,11 @@
   word-break: break-word;
 }
 
-.completed{
-  text-decoration-line: line-through; 
+.completed {
+  text-decoration-line: line-through;
 }
 
-.add-button{
+.add-button {
   border: 0;
   cursor: pointer;
   padding: 6px 16px;
@@ -94,11 +92,11 @@
   border-bottom-right-radius: 4px;
 }
 
-.add-button:hover{
+.add-button:hover {
   background-color: rgb(70, 81, 100);
- }
+}
 
-.remove-button{
+.remove-button {
   color: rgb(9, 23, 49);
   border: 1px solid rgb(9, 23, 49);
   cursor: pointer;
@@ -106,6 +104,7 @@
   border-radius: 4px;
   display: block;
 }
+
 .remove-button:hover {
   background-color: rgb(9, 23, 49);
   color: white;
