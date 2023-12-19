@@ -43,6 +43,7 @@
 
 .todo-list{
   max-height: calc(100vh - 400px);
+  min-height: 120px;
   overflow: auto;
 }
 
