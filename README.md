@@ -5,7 +5,7 @@ Simple todo list using create-react-app
 * Considerations around additional functionality include displaying ids, timestamps and sorting but deemed out of scope as this is a rabbit hole when combining with design.
 * No additional breakpoints (media queries) for various screen widths have been made due to the subjective design element.
 * The app itself is fluid/responsive.
-* A required html attribute has been put in place for adding items for simplicity. No action is also a logical behaviour for empty inputs.
+* A `required` attribute for input has been placed for simplicity vs custom validation feedback. No action is also a logical behaviour for empty inputs.
 
 ## Additional Libraries
 * uuid
