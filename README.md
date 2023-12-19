@@ -1,13 +1,24 @@
-## Available Scripts
+# Todo List
+Simple todo list using create-react-app
 
-In the project directory, you can run:
+## Notes
+* Considerations around additional functionality include displaying ids, timestamps and sorting but deemed out of scope as this is a rabbit hole when combining with design.
+* No additional breakpoints (media queries) for various screen widths have been made due to the subjective design element.
+* The app itself is fluid/responsive.
+* A required html attribute has been put in place for adding items for simplicity. No action is also a logical behaviour for empty inputs.
 
-### `npm start`
+## Additional Libraries
+* uuid
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup
+1. `git clone https://github.com/AbeSong/cmc-todo.git`
+1. `npm install`
+1. `npm start`
 
-### `npm test`
+Opens [http://localhost:3000](http://localhost:3000) in default browser
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tests
+Coverage is 100%
+* To run tests `npm run test`
+* For code coverage `npm run test -- --coverage`
+
